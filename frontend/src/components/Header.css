@@ -1,0 +1,46 @@
+.custom-navbar {
+  background: linear-gradient(135deg, #141516, #1705da);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+  transform: translateY(-2px);
+}
+
+/* Cart Badge */
+.cart-link {
+  position: relative;
+}
+
+.cart-badge {
+  background-color: #ffc107;
+  color: #000;
+  font-size: 0.75rem;
+  padding: 3px 7px;
+  border-radius: 50%;
+  margin-left: 6px;
+  font-weight: bold;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .nav-link {
+    margin: 8px 0;
+    text-align: center;
+  }
+}
